@@ -1,0 +1,90 @@
+/*  */
+body {
+  background-color: #E2D4B7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  width: 600px;
+  height: 600px;
+  background-color: #F0E7D8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+}
+
+h1 {
+  font-family: Calibri;
+  font-size: 28px;
+}
+
+.players {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.devider {
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 0;
+}
+
+.user,
+.computer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.user,
+.computer p {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.announcement {
+  font-size: 21px;
+  font-weight: 600;
+  font-family: Calibri;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 35px;
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.button span {
+  font-size: 18px;
+  font-family: Calibri;
+}
+
+.buttonImage {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.buttonImage:hover {
+  transform: scale(1.2);
+}
